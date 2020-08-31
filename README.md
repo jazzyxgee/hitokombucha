@@ -1,2 +1,2 @@
 # hi_kombucha
-Kombucha blog
+Kombucha and healthy foods blog.

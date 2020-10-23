@@ -1,2 +1,2 @@
 # Hi! Kombucha
-Kombucha and healthy foods blog. Love is awesome
+Kombucha and healthy foods blog. Love is awesome!

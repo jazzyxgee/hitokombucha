@@ -1,296 +1,299 @@
 *{
-      margin: 0;
-      padding: 0;
-      font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*index container. */
 .container{
-      width: 100%;
-      height: 100vh;
-      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background.jpg);
-      background-position: center;
-      background-size: cover;
-      padding-left: 8%;
-      padding-right: 8%;
-      box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
 
 /*navigation bar styling. w/ grid */
 .navbar{
-      height: 12%;
-      display: flex;
-      align-items: center;
+    height: 12%;
+    display: flex;
+    align-items: center;
 }
 nav{
-      flex: 1;
-      text-align: right;
+    flex: 1;
+    text-align: right;
 }
 nav ul li{
-      list-style: none;
-      display: inline-block;
-      margin-left: 60px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
 }
 nav ul li a{
-      text-decoration: none;
-      color: #fff;
-      font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 .navbar a:hover {
-    text-decoration: 2px #79c1dd underline;
+  text-decoration: 2px #79c1dd underline;
 }
 
 /*sectioning rows and columns. */
 .row{
-      display: flex;
-      height: 88%;
-      align-items: center;
+    display: flex;
+    height: 88%;
+    align-items: center;
 }
 .col{
-      flex-basis: 50%;
+    flex-basis: 50%;
 }
 .main-heading{
-      color: #fff;
-      font-size: 70px;
+    color: #fff;
+    font-size: 70px;
 }
 .feat-heading{
 
-    color: #fff;
-    font-size: 20px;
-    
+  color: #fff;
+  font-size: 20px;
+  
 }
 p{
-      color: #fff;
-      font-size: 20px;
-      line-height: 15px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 15px;
 }
 
+/*
 h5{ 
-    background-color: #fffaf0;
-}
+  background-color: #fffaf0;
+}*/
+
+
 /*subscribe button on homepage. */
 button{
-      width: 180px;
-      color: #000;
-      font-size: 12px;
-      padding: 12px 0;
-      background: #fff;
-      border: 0;
-      border-radius: 20px;
-      outline: none;
-      margin-top: 30px;
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
 }
 
 /*panels for blog posts on the homepage.  */
 .card{
-    
-    width: 200px;
-    height: 500px;
-    display: grid;
-    grid-gap: 0em;
-    
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+  
+  width: 200px;
+  height: 500px;
+  display: grid;
+  grid-gap: 0em;
+  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .cards-prop {
-    width: 200px;
-    height: 230px;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
+  width: 200px;
+  height: 230px;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
 }
 /*photos for featured blog/article posts. */
 .card1{
-    background-image: url(images/pic-3.jpg);
-    grid-column: 1;
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.7)),url("images/pic-3.jpg");
+  grid-column: 1;
 }
 .card2{
-    background-image: url(images/pic-1.jpg);
-    height: 300px;
-    grid-column: 2;
-    grid-row: 1/3;
-    
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.7)),url("images/pic-2.jpg");
+  height: 300px;
+  grid-column: 2;
+  grid-row: 1/3;
+  
 }
 .card3{
-    background-image: url(images/pic-2.jpg);
-    grid-column: 3;
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.7)),url("images/pic-1.jpg");
+  grid-column: 3;
 }
 .card4{
-    background-image: url(images/tina-dawson-tea.jpg);
-    grid-column: 1;
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.7)),url(images/tina-dawson-tea.jpg);
+  grid-column: 1;
 }
 
 .card5{
-    background-image: url(images/tina-dawson-tea.jpg);
-    grid-column: 2;
-    grid-row: 2/3;
-    margin-top: 80px;
-    height: 160px;
-    
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.7)),url(images/tina-dawson-tea.jpg);
+  grid-column: 2;
+  grid-row: 2/3;
+  margin-top: 80px;
+  height: 160px;
+  
 }
 .card6{
-    background-image: url(images/tina-dawson-tea.jpg);
-    grid-column: 3;
-    
+  background-image: linear-gradient(rgba(255,255,255,0.3),rgba(0,0,0,0.7)), url(images/tina-dawson-tea.jpg);
+  grid-column: 3;
+  
 }
 .cards-prop:hover{
-      transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 
 /*media queries for responsive design. */
 @media only screen and (max-width :1400px) {
-    .col{
-        flex: 25%;
-        margin-top: 30px;
-    }
-    .row {
-        flex-direction: column;
-    }
-    .card{
-        
-        display: grid;
-        width: auto;
-        height: auto;
-        grid-gap: 0em;
-        
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-    }
-    .cards-prop {
-        width: 300px;
-        height: 230px;
-    }
-    
-    .card1{
-        grid-row: 1/1;
-        grid-column: 1/1;
-    }
-    .card2{
-        
-        height: 230px;
-        grid-row: 1/1;
-        grid-column: 2/2;
-    }
-    .card3{
-        grid-row: 2/2;
-        grid-column: 1/1;
-    }
-    .card4{
-        grid-row: 2/2;
-        grid-column: 2/2;
-    }
-    .card5{
-        grid-row: 3/3;
-        grid-column: 1/1;
-        
-        margin-top: 10px;
-        height: 230px;
-    }
-    .card6{
-        grid-row: 3/3;
-        grid-column: 2/2;
+  .col{
+      flex: 25%;
+      margin-top: 30px;
+  }
+  .row {
+      flex-direction: column;
+  }
+  .card{
+      
+      display: grid;
+      width: auto;
+      height: auto;
+      grid-gap: 0em;
+      
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+  }
+  .cards-prop {
+      width: 300px;
+      height: 230px;
+  }
+  
+  .card1{
+      grid-row: 1/1;
+      grid-column: 1/1;
+  }
+  .card2{
+      
+      height: 230px;
+      grid-row: 1/1;
+      grid-column: 2/2;
+  }
+  .card3{
+      grid-row: 2/2;
+      grid-column: 1/1;
+  }
+  .card4{
+      grid-row: 2/2;
+      grid-column: 2/2;
+  }
+  .card5{
+      grid-row: 3/3;
+      grid-column: 1/1;
+      
+      margin-top: 10px;
+      height: 230px;
+  }
+  .card6{
+      grid-row: 3/3;
+      grid-column: 2/2;
 
-    }
-    .container{
-        height: auto;
-    }
-    nav ul li{
-      margin-left: 0px;
-    }
-    .navbar ul {
-        display: grid;
-        grid-gap: 1em;
-        padding: 0px;
-        list-style: none;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .navbar a {
-        display: block;
-        text-align: center;
-        color:#fff;
-        text-decoration: none;
-    }
+  }
+  .container{
+      height: auto;
+  }
+  nav ul li{
+    margin-left: 0px;
+  }
+  .navbar ul {
+      display: grid;
+      grid-gap: 1em;
+      padding: 0px;
+      list-style: none;
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .navbar a {
+      display: block;
+      text-align: center;
+      color:#fff;
+      text-decoration: none;
+  }
 
-    
+  
 }
 
 @media only screen and (max-width :700px) {
-    .col{
-        flex: 25%;
-        margin-top: 30px;
-    }
-    .row {
-        flex-direction: column;
-    }
-    .card{
-        display: grid;
-        width: auto;
-        height: auto;
-        grid-gap: 0em;
-        
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-    }
-    .cards-prop {
-        width: 500px;
-    }
-    
-    .card1{
-        grid-row: 1/1;
-        grid-column: 1/1;
-    }
-    .card2{
-        
-        height: 230px;
-        grid-row:2/2;
-        grid-column: 1/1;
-    }
-    .card3{
-        grid-row: 3/3;
-        grid-column: 1/1;
-    }
-    .card4{
-        grid-row: 4/4;
-        grid-column: 1/1;
-    }
-    .card5{
-        grid-row: 5/5;
-        grid-column: 1/1;
-        
-        margin-top: 10px;
-        height: 230px;
-    }
-    .card6{
-        grid-row: 6/6;
-        grid-column: 1/1;
+  .col{
+      flex: 25%;
+      margin-top: 30px;
+  }
+  .row {
+      flex-direction: column;
+  }
+  .card{
+      display: grid;
+      width: auto;
+      height: auto;
+      grid-gap: 0em;
+      
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+  }
+  .cards-prop {
+      width: 500px;
+  }
+  
+  .card1{
+      grid-row: 1/1;
+      grid-column: 1/1;
+  }
+  .card2{
+      
+      height: 230px;
+      grid-row:2/2;
+      grid-column: 1/1;
+  }
+  .card3{
+      grid-row: 3/3;
+      grid-column: 1/1;
+  }
+  .card4{
+      grid-row: 4/4;
+      grid-column: 1/1;
+  }
+  .card5{
+      grid-row: 5/5;
+      grid-column: 1/1;
+      
+      margin-top: 10px;
+      height: 230px;
+  }
+  .card6{
+      grid-row: 6/6;
+      grid-column: 1/1;
 
-    }
-    .container{
-        height: auto;
-    }
+  }
+  .container{
+      height: auto;
+  }
 
 }
 
 @media only screen and (max-width :550px) {
 
-    .cards-prop {
-        width: 350px;
-    }
-    .main-heading{
-        color: #fff;
-        font-size: 50px;
-    }
-    .feat-heading{
-        color: #fff;
-        text-align: center;
-    }    
+  .cards-prop {
+      width: 350px;
+  }
+  .main-heading{
+      color: #fff;
+      font-size: 50px;
+  }
+  .feat-heading{
+      color: #fff;
+      text-align: center;
+  }    
 
 }
 

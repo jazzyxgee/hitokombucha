@@ -59,7 +59,13 @@ nav ul li a{
     justify-content: center;
     text-align: center;
 }
+.grid-posts a {
+    color:white;
+}
+.grid-posts a:hover {
+    text-decoration: 3px #79c1dd underline;
 
+}
 .posts-prop {
 
     border-radius: 10px;
@@ -76,7 +82,6 @@ nav ul li a{
 .posts-prop:hover{
       transform: translateY(-10px);
 }
-
 .post1 {
     background-image: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0.7)),url("images/pic-3.jpg");
     grid-column: 2/6;

@@ -10,13 +10,21 @@
       height: 100vh;
 
       background-color:#fff;
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pic-2.jpg");
       background-position: center;
       background-size: cover;
       padding-left: 8%;
       padding-right: 8%;
       
       box-sizing: border-box;
+}
+.container-image0 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pic-2.jpg");
+}
+.container-image1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pic-1.jpg");
+}
+.container-image2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pic-3.jpg");
 }
 /*navigation bar styling. w/ grid */
 .navbar{

@@ -182,6 +182,9 @@ footer a:hover {
     text-decoration: 2px #79c1dd underline;
     
 }
+.left-menu{
+    float:left;
+}
 .side-menu {
     float: right;
 }
@@ -191,29 +194,12 @@ footer a:hover {
     grid-gap: 1.2em;
     padding: 5px;
 }
-.email{
-    
-}
-.instagram{
-    
-}
-.youtube{
-    
-}
+
 
 /*media queries for responsive design. */
-@media only screen and (max-width :1400px) {
-    
-    .blog-container{
-        height: auto;
-    }
-    .grid-posts > div {
-        height: 230px;
-        
-        margin-top: 20px;
-        margin-bottom: 0px;
 
-    }
+@media screen and (max-width :1400px) {
+    
     nav ul li{
         margin-left: 0px;
     }
@@ -228,36 +214,220 @@ footer a:hover {
         display: block;
         text-align: center;
         text-decoration: none;
+        
     }
+    .navbar {
+        height: auto;
+    }
+    .description{
+        padding-top: 300px;
+    }
+    
 }
 
-@media only screen and (max-width :700px) {
+@media screen and (max-height: 643px) {
+    
+    .description{
+        padding-top: 200px;
+    }
+    
+}
 
-    .blog-container{
+@media screen and (max-width :914px) {
+    
+    footer {
         height: auto;
-    }
-    .grid-posts > div {
-        height: 230px;
-        
-        margin-top: 20px;
-        margin-bottom: 0px;
 
     }
-    nav ul li{
-        margin-left: 0px;
-    }
-    .navbar ul {
-        display: grid;
-        grid-gap: 1em;
-        padding: 0px;
-        list-style: none;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .navbar a {
-        display: block;
+    footer h3 {
+
         text-align: center;
-        text-decoration: none;
-    }
+        padding-bottom: 10px;
+        padding-top: 10px;
 
+    }
+    footer ul {
+
+        text-align: center;
+        padding-left: 50px;
+
+    }
+    .side-menu {
+        
+        float: none;
+        
+    }
+    .side-menu p {
+        
+        text-align: center;
+        padding-left: 10px;
+        
+    }
+    .left-menu {
+        float: none;
+    }
+    
+    footer {
+        height: auto;
+
+    }
+    footer h3 {
+
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+    footer ul {
+
+        text-align: center;
+        padding-left: 50px;
+
+    }
+    .side-menu {
+        
+        float: none;
+        
+    }
+    .side-menu p {
+        
+        text-align: center;
+        padding-left: 10px;
+        
+    }
+    .left-menu {
+        float: none;
+    }
+    
+    
+}
+
+@media screen and (max-width :768px) {
+    
+    .other-posts {
+        
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        
+        grid-gap: 1em;
+        width: auto;
+    }
+    .post1 {
+        grid-row:1/1;
+        grid-column: 2/2;
+        
+    }
+    .post2 {
+        
+        grid-row:2/2;
+        grid-column: 2/2;
+
+    }
+    .post3 {
+        grid-row:3/3;
+        grid-column: 2/2;
+
+    }
+    .description{
+        padding-top: 300px;
+    }
+    
+    footer {
+        height: auto;
+
+    }
+    footer h3 {
+
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+    footer ul {
+
+        text-align: center;
+        padding-left: 50px;
+
+    }
+    .side-menu {
+        
+        float: none;
+        
+    }
+    .side-menu p {
+        
+        text-align: center;
+        padding-left: 10px;
+        
+    }
+    .left-menu {
+        float: none;
+    }
+    
+    footer {
+        height: auto;
+
+    }
+    footer h3 {
+
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+    footer ul {
+
+        text-align: center;
+        padding-left: 50px;
+
+    }
+    .side-menu {
+        
+        float: none;
+        
+    }
+    .side-menu p {
+        
+        text-align: center;
+        padding-left: 10px;
+        
+    }
+    .left-menu {
+        float: none;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width :700px) {
+
+    .post1 {
+        grid-row:1/1;
+        grid-column: 2/2;
+        
+    }
+    .post2 {
+        
+        grid-row:2/2;
+        grid-column: 2/2;
+
+    }
+    .post3 {
+        grid-row:3/3;
+        grid-column: 2/2;
+
+    }
+    .description{
+        padding-top: 300px;
+    }
+    
+}
+
+@media screen and (max-height: 354px) {
+    
+    .description{
+        padding-top: 0px;
+    }
     
 }

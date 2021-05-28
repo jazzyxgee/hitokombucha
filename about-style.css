@@ -267,7 +267,9 @@ footer {
         text-decoration: none;
     }
     .navbar{
-        padding-top: 0px;
+
+        height: 24px;
+
     }
     .about-section{
         margin-top: 15px;
@@ -476,7 +478,8 @@ footer {
     }
     .inner-container{
         width: 100%;
-     margin-right: 75px;
+        margin-right: 75px;
+
     }
 	
 	nav ul li{

@@ -5,10 +5,10 @@
     
 }
 body{
+
     background-image: linear-gradient(rgba(177, 48, 48, 0.7),rgba(9, 121, 106, 0.7));
     background-attachment: fixed;
 
-    height: 100vh;
 }
 .container{
 
@@ -54,6 +54,9 @@ nav ul li a{
 
  @media screen and (max-width :1400px) {
 
+    html, body {
+        height: 100%;
+    }
     nav ul li{
         margin-left: 0px;
     }
@@ -69,10 +72,8 @@ nav ul li a{
         text-align: center;
         text-decoration: none;
     }
-    .navbar{
-
-        height: 24px;
-
+    .container{
+        height: auto;
     }
 
 }

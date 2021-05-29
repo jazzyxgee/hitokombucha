@@ -248,8 +248,6 @@ footer {
     }
     
 }
-
-
 @media screen and (max-width :1400px) {
     nav ul li{
         margin-left: 0px;
@@ -284,9 +282,9 @@ footer {
 }
 
 @media screen and (max-width :930px) {
-    section{
-        padding: 0;
-        
+
+    body{
+        height: auto;
     }
     footer {
         height: auto;
@@ -362,33 +360,15 @@ footer {
    
 }
 
-@media screen and (max-width :768px) {
-    .about-section{
-        padding: 100px;
-        margin-top: 47px;
-    }
-
-    .inner-container{
-        padding: 50px;
-        width: 90%;
-        position: relative;
-        left: 75px;
-
-    }
-}
-
-
-
 @media screen and (max-width:694px){
 	.about-section{
         background-size: 0px;
         padding: 0px
        
-        
     }
     .inner-container{
-        width: 100%;
-        margin-right: 75px;
+        width: auto;
+        margin-right: 0px;
     }
     .card{
         width: 18rem;

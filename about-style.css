@@ -276,6 +276,9 @@ footer {
     .container{
         height: auto;
     }
+    .about-section{
+        margin-top: 15px;
+    }
 
 }
 
@@ -288,7 +291,7 @@ footer {
 
 @media screen and (max-width :930px) {
     html, body {
-        
+
         height: 100%;
 
     }

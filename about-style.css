@@ -11,6 +11,7 @@ body{
 
     background-image: linear-gradient(rgba(177, 48, 48, 0.7),rgba(9, 121, 106, 0.7));
     background-attachment: fixed;
+    background-size: cover;
 
     height: 100%;
 }
@@ -283,6 +284,12 @@ footer {
 }
 
 @media screen and (max-width:965px) {
+    html, body {
+
+        height: 100%;
+
+    }
+    
     .inner-container{
         width: 70%;
         padding: 50px;
@@ -290,11 +297,6 @@ footer {
 }
 
 @media screen and (max-width :930px) {
-    html, body {
-
-        height: 100%;
-
-    }
 
     footer {
         position: static;

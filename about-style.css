@@ -83,6 +83,21 @@ nav ul li a{
 }
 
 /*Meet the team section*/
+
+.team-container{
+
+    width: 100%;
+    height: 100vh;
+    background: red;
+    /*background: rgba(0, 0, 0, 0);*/
+    
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+
+    box-sizing: border-box;
+}
 .text{
     font-size: 1.5rem;
     color: #545454;

@@ -4,16 +4,9 @@
     font-family: 'Roboto', sans-serif;
     
 }
-html {
+html, body {
     height: 100%;
-}
-body{
 
-    /*background: linear-gradient(rgba(177, 48, 48, 0.7),rgba(9, 121, 106, 0.7));*/
-    background-attachment: fixed;
-    background-size: cover;
-
-    height: 100%;
 }
 .container{
 
@@ -85,12 +78,11 @@ nav ul li a{
 
 /*Meet the team section*/
 
-.team-container{
+.meet-container{
 
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: linear-gradient(rgba(9, 121, 106, 0.7), rgba(177, 48, 48, 0.7));
-    /*background: rgba(0, 0, 0, 0);*/
     
     background-position: center;
     background-size: cover;
@@ -115,6 +107,7 @@ nav ul li a{
 
 section{
     padding: 10rem 0;
+    
     background-color: #fdfdfd;
 }
 
@@ -236,12 +229,14 @@ section{
 /*footer styling*/
 
 footer {
-    position:absolute;
+    
+    position:relative;
     bottom:auto;
 
-    width:84%;
+    width: 100%;
     height:120px;   /* Height of the footer */
     background-color: #fdfdfd;
+
  }
  footer ul {
      list-style: none;

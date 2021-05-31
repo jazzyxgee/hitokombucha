@@ -257,7 +257,8 @@ footer {
     }
     
 }
- @media screen and (max-width :1400px) {
+
+@media screen and (max-width :1400px) {
 
     nav ul li{
         margin-left: 0px;
@@ -277,23 +278,17 @@ footer {
     .container{
         height: auto;
     }
-    .about-section{
-        margin-top: 15px;
-    }
+
 
 }
 
 @media screen and (max-width:965px) {
-    html, body {
 
-        height: 100%;
-
-    }
-    
     .inner-container{
         width: 70%;
         padding: 50px;
     }
+
 }
 
 @media screen and (max-width :930px) {
@@ -363,4 +358,65 @@ footer {
         float: none;
     }
     
+}
+@media screen and (max-width:800px){
+
+    .about-section{
+        background-size: 0px;
+        padding: 0;
+        
+    }
+    .inner-container{
+        width: auto;
+        margin: 0;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:694px){
+ 
+    .card{
+        width: 18rem;
+    }
+
+    .card h1{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media screen and (max-width :414px) {
+	
+    .card{
+        width: 18rem;
+    }
+
+    .card h1{
+        font-size: 2rem;
+        color: #333;
+    }
+}
+
+@media screen and (max-width:375px){
+	
+    .card{
+        width: 18rem;
+    }
+
+    .card h1{
+        font-size: 2rem;
+        color: #333;
+    }
+}
+
+@media screen and (max-width:200px){
+
+    .card{
+        width: 18rem;
+    }
+
+    .card h1{
+        font-size: 2rem;
+        color: #333;
+    }
 }

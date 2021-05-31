@@ -64,7 +64,7 @@ nav ul li a{
     /**/
     background-color: #fdfdfd;
     overflow: hidden;
-    height: 600px;
+    height: 100%;
     margin-top: 0px;
     
 }
@@ -75,6 +75,7 @@ nav ul li a{
     background-color: #fdfdfd;
     background-image: linear-gradient(rgba(185, 185, 185, 0.7),rgba(185, 185, 185, 0.7));
     padding: 150px;
+    margin-top:130px;
     
 }
 .inner-container h1{
@@ -88,7 +89,7 @@ nav ul li a{
 
     width: 100%;
     height: 100vh;
-    background: red;
+    background: linear-gradient(rgba(9, 121, 106, 0.7), rgba(177, 48, 48, 0.7));
     /*background: rgba(0, 0, 0, 0);*/
     
     background-position: center;
@@ -231,6 +232,8 @@ section{
     font-size: 3rem;
     transition: color .5s;
 }
+
+/*footer styling*/
 
 footer {
     position:absolute;
@@ -391,7 +394,7 @@ footer {
     }
     section{
         padding: 20px;
-        background-color: #fdfdfd;
+        
     }
 }
 

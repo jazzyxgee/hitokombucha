@@ -1,5 +1,5 @@
 # Hi! to Kombucha
-We are Hi! to Kombucha. We cover topics about kombucha, gardening, and healthy foods and environments. 
+We are Hi! to Kombucha, a blog. We cover topics about kombucha, gardening, and healthy foods and environments. 
 
 # Link to our website
 https://www.hitokombucha.com/

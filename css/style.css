@@ -143,7 +143,7 @@ main {
     grid-column: 1;
 }
 .card2{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.603),rgba(0,0,0,0.7)),url("/images/august-gardening-cover.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.603),rgba(0,0,0,0.7)),url("/images/creative-drinks-2.jpg");
     grid-column: 2;
     grid-row: 1/3;
     height: 320px;

@@ -1,0 +1,36 @@
+.company-about{
+    min-height: 100vh;
+    background: linear-gradient(rgba(177, 48, 48, 0.7),rgba(9, 121, 106, 0.7));
+    background-position: center;
+    background-size: cover;
+}
+.company-container{
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+section{
+    background: url(/images/creative-drinks-2.jpg) no-repeat left;
+    background-size: 55%;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+.inner-company{
+    float: right;
+    margin-top: 150px;
+    padding: 150px;
+    width:55%;
+    background-image: linear-gradient(rgba(185, 185, 185, 0.856),rgba(185, 185, 185, 0.835));
+}
+.inner-company h1{
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+}
+.text-wrap{
+    font-size: 1.5rem;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}

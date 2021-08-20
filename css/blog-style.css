@@ -1,0 +1,91 @@
+.blog{
+    min-height: 100vh;
+}
+.blog-section{
+    min-height: 100vh;
+}
+/*navigation links override*/
+.links a{
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: 2px #79c1dd underline;
+}
+/*posts grid styling */
+.posts-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.posts-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.blog-post {
+    background-size: cover;
+    border-radius: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.5s;
+    height: 290px;
+}
+.blog-post a {
+    color: #fff;;
+    font-size: 28px;
+}
+.blog-post a:hover {
+    text-decoration: 3px #79c1dd underline;
+}
+.blog-post p {
+    color:seashell;
+}
+.blog-post:hover{
+    transform: translateY(-5px);
+}
+.post1{
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0.7)),url("/images/poll-august.jpg");
+    height: 450px;
+    grid-column: 2/6;
+}
+.post2{
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0.7)),url("/images/august-gardening-cover.jpg");
+    grid-column: 2/3;
+    grid-row: 2;
+}
+.post3{
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0.7)),url("/images/what-is-kombucha-cover.jpg");
+    grid-row: 2;
+    grid-column: 3/6;
+}
+.post4{
+    background-image: linear-gradient(rgba(255,255,255,0.1),rgba(0,0,0,0.7)),url("/images/kombucha-cover.jpg");
+    grid-column: 2/5;
+}
+.post5{
+    grid-column: 5/6;
+    background-color: #79c1dd;
+}
+.pagination {
+    grid-column: 2/6;
+    display: grid;
+    justify-content: center;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #79c1dd;
+    color: white;
+    border-radius: 5px;
+}

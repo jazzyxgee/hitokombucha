@@ -1,0 +1,133 @@
+.article-hero{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.hero-image0 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/poll-august.jpg");
+}
+
+/*all styling for article*/
+.article-section{
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.description{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+.article-title{
+    color:white;
+    font-size: 50px;
+}
+.article-intro{
+    color:#F8F7F3;
+}
+.article-top{
+    padding-top: 85px;
+}
+.article p{
+    font-size: 20px;
+}
+.article a{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.article a:hover{
+    color: #000;
+    font-weight: bold;
+    text-decoration: 2px #79c1dd underline;
+}
+.article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.article figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+    padding-top: 10px;
+    font-style: italic;
+}
+.article ul,ol{
+    padding-left: 8%;
+    font-size: 20px;
+}
+.img-fig{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*other/related articles area*/
+.related-section{
+    display:grid;
+    align-content:center;
+    justify-content: center;
+}
+.other-title{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.related-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+    padding-bottom:50px;
+}
+.related-post{
+    background-color: wheat;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+    padding-left: 5px;
+    
+    cursor: pointer;
+    transition: transform 0.5s;
+    width: 200px;
+    min-height: 330px;
+}
+.related-post:hover{
+    transform: translateY(-10px);
+}
+.related-post a{
+    color:#000;
+}
+.related-post a:hover{
+    text-decoration: 2px #79c1dd underline;
+}
+.post-wrap{
+    padding: 5px;
+}
+.post-wrap p{
+    margin-top: 15px;
+}
+
+/*footer links override*/
+footer{
+    background-color: #FFFADD;
+}
+
+@media only screen and (max-width :700px) {
+    .related-grid{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:15px;
+        padding-bottom:50px;
+    }
+    .article img{
+        width: 100%;
+    }
+    .article figcaption {
+        width: 80%;
+    }
+}
